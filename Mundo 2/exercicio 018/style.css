@@ -1,0 +1,9 @@
+
+body {
+    font-family: sans-serif;
+}
+
+h1, p {
+    font-family: monospace;
+    text-align: justify;
+}
