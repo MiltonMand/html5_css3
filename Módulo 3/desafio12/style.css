@@ -68,14 +68,14 @@ section.imagem {
 }
 
 #img1 {
-    background: url(background001.jpg);
+    background: url(imagens/background001.jpg);
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
 }
 
 #img2 {
-    background: url(background002.jpg);
+    background: url(imagens/background002.jpg);
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
