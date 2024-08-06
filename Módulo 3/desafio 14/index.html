@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        .gray {
+            background-color: rgb(97, 96, 96);
+            color: rgb(243, 242, 242);
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        th, td {
+            border: 1.5px solid rgb(71, 69, 69);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead class="gray">
+            <tr>
+                <th rowspan="2">Area</th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Media</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4">Extras</th>
+                <td>Matematica</td>
+                <td class="num">15</td>
+                <td class="num">17</td>
+                <td class="num">16</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td class="num">10</td>
+                <td class="num">12</td>
+                <td class="num">11</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td class="num">13</td>
+                <td class="num">13</td>
+                <td class="num">13</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="num">17</td>
+                <td class="num">09</td>
+                <td class="num">13</td>
+            </tr>
+            <tr class="gray">
+                <td colspan="4">Medias de Exatas</td>
+                <td class="num">13</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td class="num">10</td>
+                <td class="num">18</td>
+                <td class="num">14</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="num">11</td>
+                <td class="num">19</td>
+                <td class="num">15</td>
+            </tr>
+            <tr class="gray">
+                <td colspan="4">Medias de Humanas</td>
+                <td class="num">14</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
