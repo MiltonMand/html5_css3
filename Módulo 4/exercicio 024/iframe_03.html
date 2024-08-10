@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .conteiner {
+            background: linear-gradient(to bottom, blue, rgb(0, 217, 255));
+            width: 900px;
+            padding: 15px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-style: oblique;
+            font-weight: bold;
+            background-color: #24a9c1;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 10px;
+        }
+
+        iframe {
+            border: 2px solid black;
+            width: 100vh;
+            height: 300px;
+            margin: 0 0 0 150px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 7px 80px;
+            border-radius: 10px;
+            transition-duration: 1s;
+        }
+
+        a:hover {
+            color: rgb(21, 20, 20);
+            background-color: rgb(150, 150, 165);
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>uso de iframes</h1>
+        <h2>escolha uma pagena</h2>
+        <ul>
+            <li><a href="pagenas/index1.html" target="frame">primeira pagina</a></li>
+            <li><a href="pagenas/index2.html" target="frame">segunda pagina</a></li>
+            <li><a href="pagenas/index3.html" target="frame">terceira pagina</a></li>
+        </ul>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa aspernatur voluptas ullam ea blanditiis, facilis libero ex tempora animi dolorem magni ab sed, saepe iusto atque placeat alias enim.
+        </p>
+        <iframe srcdoc="
+        <h1><br></p>Escolha uma pagina</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio magni exercitationem velit tempora iusto iste rerum porro modi id adipisci! Ipsam voluptate, libero nostrum reiciendis nulla quidem modi consequatur. Sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod in velit assumenda unde, ea exercitationem expedita distinctio aperiam, nobis quaerat at architecto facere! Aut sit fugiat ullam ipsam ea?</p>
+        " frameborder="0" name="frame"></iframe>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum ea explicabo dignissimos? Voluptates, odit facere necessitatibus tenetur, ipsa, quae sequi reiciendis nemo quos officia beatae fugiat nisi deleniti quibusdam!
+        </p>
+    </div>
+</body>
+</html>
