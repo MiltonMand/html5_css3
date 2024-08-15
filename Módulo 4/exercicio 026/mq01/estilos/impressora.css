@@ -1,0 +1,19 @@
+/*estilo para impressoras*/
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 97vw;
+}
